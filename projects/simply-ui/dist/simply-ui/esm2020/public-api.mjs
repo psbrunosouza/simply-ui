@@ -1,0 +1,5 @@
+/*
+ * Public API Surface of simply-ui
+ */
+export * from './lib/simply-ui.module.mjs';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL3NpbXBseS11aS9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsd0JBQXdCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIHNpbXBseS11aVxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL3NpbXBseS11aS5tb2R1bGUnO1xuIl19

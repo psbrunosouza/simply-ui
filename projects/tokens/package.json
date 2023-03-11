@@ -1,6 +1,7 @@
 {
-  "name": "@majoris-ui/angular",
+  "name": "@majoris-ui/tokens",
   "version": "0.0.1",
+  "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -8,16 +9,11 @@
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
-  "peerDependencies": {
-    "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0",
-    "@stitches/core": "^1.2.8"
-  },
-  "dependencies": {
-    "tslib": "^2.3.0"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@majoris-ui/tokens": "*",
-    "tsup": "^6.6.3"
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5"
   }
 }
