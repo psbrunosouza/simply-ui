@@ -1,9 +1,0 @@
-<div [ngStyle]="{'background-color' : color.color}" style="padding: 2rem; margin: 0 50px" *ngFor="let color of retrieveColorsAsArray()">
-  <div
-    [style]="'display: flex; justify-content: space-between; font-family: monospace'"
-    [ngStyle]="{'color': getContrastingColor(color.color, '#FFF')}"
-  >
-    <span>{{color.key}}</span>
-    <span>{{color.color}}</span>
-  </div>
-</div>
