@@ -38,8 +38,8 @@
     },
     "storybook": {
       "projectType": "application",
-      "root": "./projects/docs/src/stories",
-      "sourceRoot": "./projects/docs/src/stories",
+      "root": "./projects/docs/src",
+      "sourceRoot": "./projects/docs/src",
       "architect": {
         "build": {
           "options": {

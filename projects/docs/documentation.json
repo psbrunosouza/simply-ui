@@ -10,7 +10,7 @@
         {
             "name": "ButtonComponent",
             "id": "component-ButtonComponent-ef034818ccc9514587d1afb6854a1972b6eab70c0592b05304d91d80348aec26b3e315844a5650670ec26ad4989490d2b6ffb55c7672b63bbc8c8acda214c63a",
-            "file": "src/stories/button.component.ts",
+            "file": "src/components/button/button.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -253,6 +253,15 @@
         "status": "low",
         "files": [
             {
+                "filePath": "src/components/button/button.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "ButtonComponent",
+                "coveragePercent": 83,
+                "coverageCount": "5/6",
+                "status": "very-good"
+            },
+            {
                 "filePath": "src/stories/Button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
@@ -301,15 +310,6 @@
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
-            },
-            {
-                "filePath": "src/stories/button.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "ButtonComponent",
-                "coveragePercent": 83,
-                "coverageCount": "5/6",
-                "status": "very-good"
             }
         ]
     }
