@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "simply-ui": {
+    "majoris-ui": {
       "projectType": "library",
-      "root": "projects/simply-ui",
-      "sourceRoot": "projects/simply-ui/src",
+      "root": "projects/majoris-ui",
+      "sourceRoot": "projects/majoris-ui/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/simply-ui/ng-package.json"
+            "project": "projects/majoris-ui/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/simply-ui/tsconfig.lib.prod.json"
+              "tsConfig": "projects/majoris-ui/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/simply-ui/tsconfig.lib.json"
+              "tsConfig": "projects/majoris-ui/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/simply-ui/tsconfig.spec.json",
+            "tsConfig": "projects/majoris-ui/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
@@ -38,8 +38,8 @@
     },
     "storybook": {
       "projectType": "application",
-      "root": "./docs/src/stories",
-      "sourceRoot": "./docs/src/stories",
+      "root": "./projects/docs/src/stories",
+      "sourceRoot": "./projects/docs/src/stories",
       "architect": {
         "build": {
           "options": {
