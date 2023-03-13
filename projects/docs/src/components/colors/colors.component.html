@@ -1,0 +1,14 @@
+<div [ngStyle]="{'margin': '5rem'}">
+  <h2 [ngStyle]="{'color': colors.header500}">Cores</h2>
+
+  <div [ngStyle]="{
+  'font-family': 'monospace',
+  'justify-content': 'space-between',
+  'display': 'flex',
+  'padding': '2rem',
+  'background-color': color.value
+  }" *ngFor="let color of getColors()">
+    <div>{{color.key}}</div>
+    <div>{{color.value}}</div>
+  </div>
+</div>
